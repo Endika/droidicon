@@ -1,4 +1,6 @@
-apply plugin: 'android'
+apply plugin: 'android-library'
+
+
 
 android {
     compileSdkVersion 21
@@ -15,17 +17,21 @@ android {
         abortOnError false
     }
 
-    buildTypes {
+    buildTypes{
+        debug{
+
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:+'
-    compile project(':droidicon')
+    compile group: 'com.android.support', name: 'appcompat-v7', version: '[21, 22)'
+    //compile 'com.android.support:appcompat-v7:+'
 }
 
-
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'

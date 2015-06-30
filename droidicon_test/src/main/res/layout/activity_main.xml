@@ -345,68 +345,68 @@
 
 
         <HorizontalScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp">
-
-        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_marginBottom="4dp">
 
-
-
-            <com.thedazzler.droidicon.badges.DroidiconBadge
-                android:id="@+id/badge1"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                droidicon:db_bg_color="@color/facebook"
-                droidicon:db_icon_color="@color/white"
-                droidicon:db_draw_contour="true"
-                droidicon:db_contour_width="5"
-                droidicon:db_contour_color="@color/carrot"
-                droidicon:db_icon="fa-user"
-                android:layout_marginRight="4dp"
-                />
+                android:orientation="horizontal">
 
-            <com.thedazzler.droidicon.badges.DroidiconBadge
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                droidicon:db_bg_color="#2c3e50"
-                droidicon:db_draw_contour="true"
-                droidicon:db_contour_width="5"
-                droidicon:db_contour_color="@color/white"
-                droidicon:db_icon_color="#1abc9c"
-                droidicon:db_icon="fa-thumbs-up"
-                android:layout_marginRight="4dp"
-                />
 
-            <com.thedazzler.droidicon.badges.DroidiconBadge
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                droidicon:db_draw_contour="true"
-                droidicon:db_contour_width="5"
-                droidicon:db_contour_color="#000"
-                droidicon:db_bg_color="#e74c3c"
-                droidicon:db_icon_color="#fff"
-                droidicon:db_icon="fa-glass"
-                android:layout_marginRight="4dp"
-                />
 
-            <com.thedazzler.droidicon.badges.DroidiconBadge
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                droidicon:db_draw_contour="true"
-                droidicon:db_contour_width="5"
-                droidicon:db_contour_color="@color/white"
-                droidicon:db_bg_color="@color/black"
-                droidicon:db_icon_color="@color/dribble"
-                droidicon:db_icon="fa-gift"
-                />
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    droidicon:db_bg_color="@color/facebook"
+                    droidicon:db_icon_color="@color/white"
+                    droidicon:db_draw_contour="true"
+                    droidicon:db_contour_width="5"
+                    droidicon:db_contour_color="@color/carrot"
+                    droidicon:db_icon="fa-user"
+                    android:layout_marginRight="4dp"
+                    />
 
-        </LinearLayout>
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    droidicon:db_bg_color="#2c3e50"
+                    droidicon:db_draw_contour="true"
+                    droidicon:db_contour_width="5"
+                    droidicon:db_contour_color="@color/white"
+                    droidicon:db_icon_color="#1abc9c"
+                    droidicon:db_icon="fa-thumbs-up"
+                    android:layout_marginRight="4dp"
+                    />
 
-    </HorizontalScrollView>
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                    android:id="@+id/dribble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    droidicon:db_draw_contour="true"
+                    droidicon:db_contour_width="5"
+                    droidicon:db_contour_color="#000"
+                    droidicon:db_bg_color="#e74c3c"
+                    droidicon:db_icon_color="#fff"
+                    droidicon:db_icon="fa-glass"
+                    android:layout_marginRight="4dp"
+                    />
+
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    droidicon:db_draw_contour="true"
+                    droidicon:db_contour_width="5"
+                    droidicon:db_contour_color="@color/white"
+                    droidicon:db_bg_color="@color/black"
+                    droidicon:db_icon_color="@color/dribble"
+                    droidicon:db_icon="fa-gift"
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
@@ -746,51 +746,101 @@
         </HorizontalScrollView>
 
         <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        droidicon:db_bg_color="#2ecc71"
+                        droidicon:db_icon_color="#fff"
+                        droidicon:db_icon="iconic-headphones"
+                        android:layout_marginRight="4dp"
+                        />
+
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        droidicon:db_bg_color="#2c3e50"
+                        droidicon:db_icon_color="#1abc9c"
+                        droidicon:db_icon="iconic-mic"
+                        android:layout_marginRight="4dp"
+                        />
+
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        droidicon:db_bg_color="#e74c3c"
+                        droidicon:db_icon_color="#fff"
+                        droidicon:db_icon="iconic-volume-up"
+                        android:layout_marginRight="4dp"
+                        />
+
+                <com.thedazzler.droidicon.badges.DroidiconBadge
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        droidicon:db_bg_color="#9b59b6"
+                        droidicon:db_icon_color="#fff"
+                        droidicon:db_icon="gmd-phone-bluetooth-speaker"
+                        />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Unicode and customs"/>
+
+
+        <HorizontalScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    android:id="@+id/custom_icon_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
 
 
                 <com.thedazzler.droidicon.badges.DroidiconBadge
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    droidicon:db_bg_color="#2ecc71"
-                    droidicon:db_icon_color="#fff"
-                    droidicon:db_icon="iconic-headphones"
-                    android:layout_marginRight="4dp"
-                    />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        droidicon:db_bg_color="#9b59b6"
+                        droidicon:db_icon_color="#fff"
+                        droidicon:db_icon="unicode-0x2658"
+                        />
 
-                <com.thedazzler.droidicon.badges.DroidiconBadge
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    droidicon:db_bg_color="#2c3e50"
-                    droidicon:db_icon_color="#1abc9c"
-                    droidicon:db_icon="iconic-mic"
-                    android:layout_marginRight="4dp"
-                    />
+                <View
+                        android:id="@+id/custom1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="4dp">
 
-                <com.thedazzler.droidicon.badges.DroidiconBadge
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    droidicon:db_bg_color="#e74c3c"
-                    droidicon:db_icon_color="#fff"
-                    droidicon:db_icon="iconic-volume-up"
-                    android:layout_marginRight="4dp"
-                    />
+                </View>
 
-                <com.thedazzler.droidicon.badges.DroidiconBadge
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    droidicon:db_bg_color="#9b59b6"
-                    droidicon:db_icon_color="#fff"
-                    droidicon:db_icon="gmd-phone-bluetooth-speaker"
-                    />
+                <View
+                        android:id="@+id/custom2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="4dp">
+
+                </View>
 
             </LinearLayout>
 
